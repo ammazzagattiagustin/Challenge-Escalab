@@ -43,6 +43,11 @@ body.dark-mode {
 }
 
 /* Espaciados */
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-2 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -144,6 +149,28 @@ body.dark-mode {
 
 .card-content h3 {
   margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.btn a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #2e9232;
+  color: white;
 }
 
 @media (max-width: 1000px) {
